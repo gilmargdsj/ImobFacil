@@ -16,6 +16,11 @@
    		$this->Atrib1 = $p;
    		echo "Atrib1 was set to : $this->Atrib1 <p>";
    	}
+   	function set_atrib2($p) {
+   		echo "Atrib2 will be set to : $p <p>";
+   		$this->Atrib2 = $p;
+   		echo "Atrib2 was set to : $this->Atrib2 <p>";
+   	}
    	function Persiste() {
    		echo "Done";
    	}

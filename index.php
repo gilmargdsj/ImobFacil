@@ -7,20 +7,27 @@
   </head>
   <body>
    <?php
-   
+   /*
    require( 'class_teste.php' );
 
    $vteste = new Teste("Teste");
    $vteste->PrintaHello("Hello");
    $vteste->set_atrib1(5);
-
+   $vteste->set_atrib2(12);
+   echo $vteste->Atrib1 . "<p>";
+   echo $vteste->Atrib2 . "<p>";
+   */
    ?>
 
    <form action="class_teste_grava.php" method="post">
-   	<button type="button"> Gravar Classe </button>
+   	Login : <input type="text" name="login"><p>
+   	Nome : <input type="text" name="nome"><p>
+   	Senha : <input type="text" name="senha"><p>
+   	<button type="submit" name="obj2Write" value="$vteste"> Gravar Classe </button>
    </form>
 
    <?php
+   /*
    echo "XXX"; 
    echo "<p></p>";
     
@@ -34,7 +41,7 @@
     
    $teste="dsjkfhksjdhfkjshfhksdf";
    echo "<font size=5 face="."console".">".$teste."</font>";
-    
+   */ 
    ?>
   </body>
 </html>
